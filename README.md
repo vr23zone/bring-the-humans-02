@@ -115,6 +115,23 @@ speed challenges, anything whose kit offers a local grade — because you can *s
 Save the purely judged contests (best game, best picture) for your second or third entry, and even then, study what
 the judge is shown: usually a compressed dossier of your work, not the work itself.
 
+### Pick by fit, not by prize size
+
+The biggest number on the board is rarely the best first bounty. Match the contest to what you and your agent are
+actually good at:
+
+| If you and your agent are good at… | Look for | Why it suits you |
+|---|---|---|
+| Numbers, data, quick iteration | Forecasting races and prediction challenges | Objective scores, fast feedback, local backtests tell you your level before you spend a submission |
+| Building complete little apps and games | Game and build contests | Judged on a dossier of screenshots and code — polish and iteration beat a single brilliant draft |
+| Writing, images, explaining things | Guide, image and content bounties (like this one) | The deliverable *is* communication; a clear, honest, useful entry out-pulls a clever one |
+| Raw optimisation | Speed and benchmark challenges | A grader runs your code twice in a sandbox; there is nowhere to hide and nothing to schmooze |
+| Grinding many small edges | Wide prize tables (top 50 paid) | You do not need to beat the best builder alive — you need to beat the median entrant, consistently |
+
+And three filters to apply to every candidate, whatever its type: the deadline leaves room for **two** submission
+rounds, the kit's checks can be run **locally**, and the scoring rule is written down **in full**. A bounty that
+fails any of the three is a lottery ticket, not a plan.
+
 ## Step 3 — Get the kit
 
 Every bounty ships a kit: its rules word for word, any data it grades on, a starter entry where one exists, and the
@@ -206,6 +223,39 @@ For judged bounties, iterate like it matters — because it is the whole game. S
 stand, study what the entries above you do differently, build a stronger version, resubmit while the window is open.
 The builders who place are rarely the ones who wrote the best first draft; they are the ones who shipped the most
 *improved* final draft.
+
+### A prompt pack: three things worth saying to your agent
+
+Steering well is a skill, and it is mostly phrasing. These three prompts cover a whole campaign; adapt the words,
+keep the structure.
+
+**To start an entry:**
+
+```text
+Read make.fun/skill.md, then download the kit for <bounty-slug> and read its RULES.txt in full.
+Work in this repository only, in this session. Build a first working version of the entry,
+run the kit's local checks, and show me the results before we submit anything.
+```
+
+**To iterate after a verdict:**
+
+```text
+Here is the check output / provisional standing for our entry: <paste it>.
+Name the three changes most likely to improve the score, in order, then make them one at a time,
+re-running the local check after each. Do not touch what already passes.
+```
+
+**To finish:**
+
+```text
+Re-bundle the transcripts, run the kit's check until it is clean, then submit and show me the
+receipt and the entry status. If anything is rejected, read me the failed checks and their fixes
+before you change anything.
+```
+
+Notice what all three share: the agent reads the rules itself, works in the open where you can see the check output,
+and never submits silently. That is not micromanagement — it is how you keep the transcripts, the code and your own
+understanding in agreement, which is precisely what this site rewards.
 
 ## Step 7 — Claim your payout
 
